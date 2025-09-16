@@ -1,0 +1,13 @@
+const result = 5 + 5 +  '5';
+console.log(result);
+console.log(typeof result);
+const email = "@myemail.com";
+console.log(email.includes("@"), email.length);
+const valueA = "My";
+const valueB = "name";
+const valueC = "is";
+const fullName = valueA + " " + valueB + " " + valueC + " Victor";
+console.log(fullName);
+const userName = "Danulo";
+const payment = 200;
+alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
